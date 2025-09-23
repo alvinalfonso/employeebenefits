@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippine Employee Benefits & Payroll Guide 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom colors inspired by the Philippine flag */
+        .bg-primary-blue { background-color: #0038A8; }
+        .text-primary-blue { color: #0038A8; }
+        .border-primary-blue { border-color: #0038A8; }
+        .bg-primary-red { background-color: #CE1126; }
+        .text-primary-red { color: #CE1126; }
+        .bg-primary-yellow { background-color: #FCD116; }
+        .text-primary-yellow { color: #FCD116; }
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #0038A8;
+            border-bottom: 3px solid #FCD116;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+        .tab-button {
+            transition: all 0.3s ease;
+        }
+        .tab-button.active {
+            background-color: #0038A8;
+            color: white;
+            border-color: #FCD116;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header and Navigation -->
+    <header class="bg-primary-blue text-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold flex items-center">
+                <!-- University of Assumption torch flame icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-yellow mr-2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                BenefitsPH Guide
+            </div>
+            <div class="hidden md:flex space-x-4 items-center">
+                <a href="#wage" class="hover:text-primary-yellow transition">Minimum Wage</a>
+                <a href="#benefits" class="hover:text-primary-yellow transition">Monetary</a>
+                <a href="#leaves" class="hover:text-primary-yellow transition">Leaves</a>
+                <a href="#sss-benefits" class="hover:text-primary-yellow transition">SSS</a>
+                <a href="#pagibig-benefits" class="hover:text-primary-yellow transition">Pag-IBIG</a>
+                <a href="#philhealth-benefits" class="hover:text-primary-yellow transition">PhilHealth</a>
+                <a href="#hr-note" class="hover:text-primary-yellow transition">For HR</a>
+                <a href="#calculators" class="bg-primary-red hover:bg-red-700 px-4 py-2 rounded-md font-semibold transition">Calculators</a>
+            </div>
+            <div class="md:hidden">
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#wage" class="block py-2 hover:text-primary-yellow transition">Minimum Wage</a>
+            <a href="#benefits" class="block py-2 hover:text-primary-yellow transition">Monetary Benefits</a>
+            <a href="#leaves" class="block py-2 hover:text-primary-yellow transition">Leave Benefits</a>
+            <a href="#sss-benefits" class="block py-2 hover:text-primary-yellow transition">SSS Benefits</a>
+            <a href="#pagibig-benefits" class="block py-2 hover:text-primary-yellow transition">Pag-IBIG Benefits</a>
+            <a href="#philhealth-benefits" class="block py-2 hover:text-primary-yellow transition">PhilHealth Benefits</a>
+            <a href="#hr-note" class="block py-2 hover:text-primary-yellow transition">For HR</a>
+            <a href="#calculators" class="block mt-2 bg-primary-red hover:bg-red-700 px-4 py-2 rounded-md font-semibold text-center transition">Calculators</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Hero Section -->
+        <section class="text-center mb-20">
+            <img src="https://www.ua.edu.ph/wp-content/uploads/2017/07/UA-Logo.png" alt="University of the Assumption Logo" class="h-28 w-28 mx-auto mb-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-primary-blue mb-4">Employee Benefits Administration</h1>
+            <p class="text-xl md:text-2xl text-gray-700 font-medium">Presented by: Alvin Alfonso & Neil Patrick Gamboa</p>
+            <p class="text-lg text-gray-500 font-medium">MBA - University of the Assumption</p>
+            <p class="mt-8 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                An overview based on the 2024 DOLE Handbook, focusing on NCR & Pampanga. Your guide to understanding your rights and compensation.
+            </p>
+            <div class="mt-8">
+                <div class="flex justify-center items-center space-x-2 text-xl font-bold text-gray-700">
+                    <span class="text-primary-blue">Maka-Diyos</span>
+                    <span class="text-primary-yellow">,</span>
+                    <span class="text-primary-red">Makatao</span>
+                    <span class="text-primary-blue">,</span>
+                    <span class="text-primary-yellow">Makakalikasan</span>
+                    <span class="text-primary-red">at Makabansa</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Minimum Wage Section -->
+        <section id="wage" class="mb-20">
+            <h2 class="section-title">Minimum Wage Rates (2024)</h2>
+            <p class="text-gray-700 mb-8 max-w-4xl">
+                Minimum wage is the lowest wage that employers can legally pay their workers. It varies by region and is set by the Regional Tripartite Wages and Productivity Boards (RTWPB). Below are the current rates for the National Capital Region (NCR) and Region III (Central Luzon), with a special note on Pampanga. These rates are sourced from the <a href="https://nwpc.dole.gov.ph/" target="_blank" class="text-primary-blue underline hover:text-primary-red">National Wages and Productivity Commission (NWPC)</a>.
+            </p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- NCR Card -->
+                <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-blue">
+                    <h3 class="text-2xl font-bold text-primary-blue mb-4">National Capital Region (NCR)</h3>
+                    <p class="text-gray-600 mb-4">Based on Wage Order No. NCR-24, effective July 16, 2023. <sup class="text-primary-red">(Handbook, p. 5)</sup></p>
+                    <div class="text-center bg-blue-50 p-6 rounded-lg">
+                        <p class="text-lg text-gray-800">Non-Agriculture Sector</p>
+                        <p class="text-4xl font-extrabold text-primary-blue mt-2">₱610.00</p>
+                        <p class="text-sm text-gray-500">per day</p>
+                    </div>
+                </div>
+                <!-- Pampanga Card -->
+                <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-red">
+                    <h3 class="text-2xl font-bold text-primary-red mb-4">Pampanga (Region III)</h3>
+                    <p class="text-gray-600 mb-4">Based on Wage Order No. RBIII-24, effective October 16, 2023. Note the distinction within the province. <sup class="text-primary-red">(Handbook, p. 5)</sup></p>
+                    <div class="space-y-4">
+                        <div class="bg-red-50 p-4 rounded-lg">
+                            <p class="font-semibold text-red-800">Angeles City (Highly-Urbanized City)</p>
+                             <p class="text-2xl font-bold text-primary-red">₱500.00 <span class="text-base font-medium text-gray-600">(Non-Agriculture)</span></p>
+                        </div>
+                        <div class="bg-red-50 p-4 rounded-lg">
+                            <p class="font-semibold text-red-800">Rest of Pampanga Province</p>
+                             <p class="text-2xl font-bold text-primary-red">₱493.00 <span class="text-base font-medium text-gray-600">(Non-Agriculture)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Monetary Benefits Section -->
+        <section id="benefits" class="mb-20">
+            <h2 class="section-title">Key Monetary Benefits</h2>
+            <p class="text-gray-700 mb-8 max-w-4xl">
+                Beyond the basic wage, the Labor Code of the Philippines mandates several other monetary benefits for employees. Here are some of the most important ones, with formulas and examples.
+            </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Overtime & Premium Pay <sup class="text-primary-red">(p. 10)</sup></h4>
+                    <p class="text-gray-600 flex-grow">Employees are entitled to additional compensation for work rendered beyond the normal eight (8) hours a day. This includes <strong>Overtime Pay</strong> for excess hours on a regular workday and <strong>Premium Pay</strong> for work performed on non-working days, such as rest days and special holidays.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">Regular Day Overtime Formula:</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">(Hourly Rate × 125%) × OT Hours</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> For a ₱610/day worker, 2 OT hours are (₱76.25 × 1.25) × 2 = <b>₱190.63</b></p>
+                    </div>
+                </div>
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Holiday Pay <sup class="text-primary-red">(p. 15)</sup></h4>
+                    <p class="text-gray-600 flex-grow">This benefit applies to all employees except government staff and managers. If an employee works on a designated regular holiday, they receive 200% of their wage. If they do not work, they still receive 100% of their daily rate, provided they were not absent without pay on the preceding workday.</p>
+                     <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">Regular Holiday Pay Formula:</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">Daily Rate × 200%</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> For a ₱610/day worker, pay for working is ₱610 × 2 = <b>₱1,220.00</b></p>
+                    </div>
+                </div>
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Night Shift Differential <sup class="text-primary-red">(p. 13)</sup></h4>
+                    <p class="text-gray-600 flex-grow">Also known as night duty pay, this is an additional 10% on top of the employee's regular wage for every hour of work performed between 10:00 PM and 6:00 AM. This applies to all employees except those in government and managerial positions. This differential is paid on top of any applicable overtime or holiday premium.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">Night Differential Formula:</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">(Hourly Rate × 10%) × Night Hours</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> For a ₱610/day worker, 8 night hours add (₱76.25 × 0.10) × 8 = <b>₱61.00</b></p>
+                    </div>
+                </div>
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">13th Month Pay <sup class="text-primary-red">(p. 25)</sup></h4>
+                    <p class="text-gray-600 flex-grow">This is a mandatory benefit provided to all rank-and-file employees who have worked for at least one month during the calendar year. It must be paid on or before December 24th. The pay is calculated based on the employee's basic salary and excludes allowances and monetary benefits not considered part of basic pay (e.g., overtime).</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">13th Month Pay Formula:</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">(Total Basic Salary in Year) / 12</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> If total annual basic pay is ₱300,000, the 13th month pay is <b>₱25,000.00</b></p>
+                    </div>
+                </div>
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Separation Pay <sup class="text-primary-red">(p. 30)</sup></h4>
+                    <p class="text-gray-600 flex-grow">This is financial assistance for employees separated from their jobs due to authorized causes. The amount depends on the reason, such as installation of labor-saving devices (e.g., automation), redundancy, retrenchment to prevent losses, or closure of an establishment.</p>
+                     <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">Formula (Redundancy):</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">Monthly Salary × Years of Service</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> A worker with 5 years service at ₱25k/mo gets ₱25,000 × 5 = <b>₱125,000.00</b></p>
+                    </div>
+                </div>
+                <!-- Benefit Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Retirement Pay <sup class="text-primary-red">(p. 35)</sup></h4>
+                    <p class="text-gray-600 flex-grow">Upon reaching retirement age (optional at 60, compulsory at 65), an employee with at least five years of service is entitled to this pay. The "one-half month salary" is legally defined as 15 days' salary, plus five days of service incentive leave, plus 1/12th of the 13th-month pay (totaling ~22.5 days per year of service).</p>
+                     <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-sm font-semibold text-gray-800">Retirement Pay Formula:</p>
+                        <code class="text-xs bg-gray-100 p-1 rounded">(Daily Rate × 22.5) × Years of Service</code>
+                        <p class="text-xs text-gray-500 mt-1"><b>Ex:</b> A ₱610/day worker with 10 years service gets (₱610 × 22.5) × 10 = <b>₱137,250.00</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leave Benefits Section -->
+        <section id="leaves" class="mb-20">
+            <h2 class="section-title">Statutory Leave Benefits</h2>
+             <p class="text-gray-700 mb-8 max-w-4xl">
+                Employees are entitled to various types of leave, ensuring they have time for rest, family, and health needs.
+            </p>
+            <div class="space-y-6">
+                 <!-- Leave Item -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary-blue rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary-blue">Service Incentive Leave (SIL)</h4>
+                        <p class="text-gray-600">Every employee who has rendered at least one year of service is entitled to 5 days of leave with pay. This can be used for vacation or sick leave. Unused SIL at the end of the year must be converted to cash. <sup class="text-primary-red">(Handbook, p. 18)</sup></p>
+                    </div>
+                </div>
+                 <!-- Leave Item -->
+                 <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-red-100 text-primary-red rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary-blue">Maternity Leave (RA 11210)</h4>
+                        <p class="text-gray-600">Provides 105 days of paid leave for female SSS members for live childbirth, regardless of civil status. This can be extended by 30 days without pay. Solo mothers get an additional 15 days. In case of miscarriage or emergency termination, the benefit is 60 days of paid leave. <sup class="text-primary-red">(Handbook, p. 20)</sup></p>
+                    </div>
+                </div>
+                 <!-- Leave Item -->
+                 <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary-blue">Paternity Leave (RA 8187)</h4>
+                        <p class="text-gray-600">Grants 7 days of paid leave to married male employees for the first four (4) deliveries of his legitimate spouse. The purpose is to allow the husband to assist his wife during her recovery and in caring for the newborn. <sup class="text-primary-red">(Handbook, p. 22)</sup></p>
+                    </div>
+                </div>
+                 <!-- Leave Item -->
+                 <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-100 text-primary-blue rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary-blue">Parental Leave for Solo Parents (RA 8972)</h4>
+                        <p class="text-gray-600">Provides 7 additional work days of leave with pay every year for any solo parent who has rendered service of at least one year. This leave is for performing parental duties and responsibilities where physical presence is required. <sup class="text-primary-red">(Handbook, p. 23)</sup></p>
+                    </div>
+                </div>
+                 <!-- Leave Item -->
+                 <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-red-100 text-primary-red rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary-blue">Leave for VAWC Victims (RA 9262)</h4>
+                        <p class="text-gray-600">Female employees who are victims of violence as defined under the Anti-Violence Against Women and Their Children Act are entitled to 10 days of paid leave. This is used for attending to medical and legal concerns. <sup class="text-primary-red">(Handbook, p. 24)</sup></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SSS Benefits Section -->
+        <section id="sss-benefits" class="mb-20">
+            <h2 class="section-title">SSS Benefits Overview</h2>
+            <p class="text-gray-700 mb-8 max-w-4xl">
+                The Social Security System (SSS) provides a range of social insurance benefits to its members. These are funded by member and employer contributions and serve as a safety net for various life contingencies.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- SSS Benefit Card: Sickness -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Sickness Benefit</h4>
+                    <p class="text-gray-600 mb-3">A daily cash allowance for the number of days a member is unable to work due to sickness or injury.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 3 monthly contributions in the last 12 months.</li>
+                        <li>Confined for at least 4 days.</li>
+                        <li>Used up all company sick leaves.</li>
+                    </ul>
+                </div>
+                <!-- SSS Benefit Card: Maternity -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Maternity Benefit</h4>
+                    <p class="text-gray-600 mb-3">A daily cash allowance for female members unable to work due to childbirth, miscarriage, or emergency termination of pregnancy.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 3 monthly contributions in the last 12 months.</li>
+                        <li>Provided notification to the employer.</li>
+                    </ul>
+                </div>
+                <!-- SSS Benefit Card: Disability -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Disability Benefit</h4>
+                    <p class="text-gray-600 mb-3">A cash benefit, either as a monthly pension or a lump sum, for members who become permanently disabled (partially or totally).</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li><b>Monthly Pension:</b> At least 36 monthly contributions.</li>
+                        <li><b>Lump Sum:</b> Less than 36 monthly contributions.</li>
+                    </ul>
+                </div>
+                <!-- SSS Benefit Card: Retirement -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Retirement Benefit</h4>
+                    <p class="text-gray-600 mb-3">A cash benefit, either as a monthly pension or a lump sum, for members who can no longer work due to old age.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 60 (optional) or 65 (technical) years old.</li>
+                        <li>At least 120 monthly contributions.</li>
+                    </ul>
+                </div>
+                 <!-- SSS Benefit Card: Death -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Death Benefit</h4>
+                    <p class="text-gray-600 mb-3">A cash benefit, either as a monthly pension or lump sum, given to the beneficiaries of a deceased member.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li><b>Monthly Pension:</b> Deceased paid at least 36 monthly contributions.</li>
+                        <li><b>Lump Sum:</b> Deceased paid less than 36 monthly contributions.</li>
+                    </ul>
+                </div>
+                 <!-- SSS Benefit Card: Funeral -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Funeral Benefit</h4>
+                    <p class="text-gray-600 mb-3">A variable cash amount given to the person who paid for the burial expenses of a deceased member.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>The deceased member must have been a covered SSS member.</li>
+                        <li>Claimant must provide proof of payment for funeral expenses.</li>
+                    </ul>
+                </div>
+                 <!-- SSS Benefit Card: Unemployment -->
+                 <div class="bg-white p-6 rounded-lg shadow-md md:col-span-2">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Unemployment Insurance</h4>
+                    <p class="text-gray-600 mb-3">A one-time cash benefit for members who are involuntarily separated from employment (e.g., redundancy, retrenchment).</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Not over 60 years of age at time of separation.</li>
+                        <li>At least 36 monthly contributions, with 12 in the last 18 months.</li>
+                        <li>Has not claimed this benefit in the last 3 years.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pag-IBIG Fund Benefits Section -->
+        <section id="pagibig-benefits" class="mb-20">
+            <h2 class="section-title">Pag-IBIG Fund Benefits</h2>
+            <p class="text-gray-700 mb-8 max-w-4xl">
+                The Home Development Mutual Fund (HDMF), more popularly known as the Pag-IBIG Fund, is a national savings program and an affordable home financing institution for Filipino workers. Membership is mandatory for all SSS and GSIS-covered employees.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Benefit Card: Provident Savings -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Provident Savings Program</h4>
+                    <p class="text-gray-600 mb-3">A mandatory savings program where members contribute a monthly amount, which is matched by their employer. These savings earn annual dividends. Members can also opt for the MP2 Savings, a voluntary program with higher dividend rates.</p>
+                    <p class="text-sm font-semibold text-gray-800">Key Features:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Government-guaranteed savings.</li>
+                        <li>Tax-free dividends.</li>
+                        <li>Withdrawal upon retirement, disability, or 240 months of contributions.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Housing Loan -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Affordable Housing Loan</h4>
+                    <p class="text-gray-600 mb-3">The flagship program of the fund, allowing members to borrow up to P6 million to purchase or construct a home, with low interest rates and long repayment terms.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 24 monthly savings.</li>
+                        <li>Not more than 65 years old at the time of loan application.</li>
+                        <li>Has the legal capacity to acquire and encumber real property.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Multi-Purpose Loan -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Multi-Purpose Loan (MPL)</h4>
+                    <p class="text-gray-600 mb-3">A cash loan designed to help members with their short-term financial needs, such as medical expenses, education, or minor home improvements.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 24 monthly savings.</li>
+                        <li>Sufficient proof of income.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Calamity Loan -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Calamity Loan</h4>
+                    <p class="text-gray-600 mb-3">Provides immediate financial aid to members residing in areas declared under a state of calamity by the Office of the President or the local Sanggunian.</p>
+                    <p class="text-sm font-semibold text-gray-800">Eligibility Summary:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>At least 24 monthly savings.</li>
+                        <li>Resides in an area declared under a state of calamity.</li>
+                        <li>Must apply within 90 days from the declaration of calamity.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Loyalty Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md md:col-span-2">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Pag-IBIG Loyalty Card Plus</h4>
+                    <p class="text-gray-600 mb-3">Acts as a primary identification card for members and provides access to exclusive discounts and rewards from hundreds of partner establishments nationwide. It also serves as a cash card where members can receive loan proceeds and MP2 Savings dividends.</p>
+                    <p class="text-sm font-semibold text-gray-800">Key Features:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Serves as an official ID card for Pag-IBIG transactions.</li>
+                        <li>Functions as an ATM/debit card for easy fund access.</li>
+                        <li>Offers discounts on groceries, fuel, tuition fees, hospital bills, and more.</li>
+                        <li>Available to any active Pag-IBIG member.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PhilHealth Benefits Section -->
+        <section id="philhealth-benefits" class="mb-20">
+            <h2 class="section-title">PhilHealth Benefits Overview</h2>
+            <p class="text-gray-700 mb-8 max-w-4xl">
+                The Philippine Health Insurance Corporation (PhilHealth) is the national health insurance program, tasked to provide universal health coverage for all Filipinos. Membership is mandatory and aims to provide affordable and accessible healthcare services.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Benefit Card: Inpatient -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Inpatient Benefits</h4>
+                    <p class="text-gray-600 mb-3">Covers expenses for room and board, drugs and medicines, laboratory exams, and operating room fees when a member is confined in an accredited hospital for at least 24 hours.</p>
+                    <p class="text-sm font-semibold text-gray-800">Programs Include:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>All Case Rates (fixed amount for specific medical cases).</li>
+                        <li>Coverage for professional fees of attending physicians.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Outpatient -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Outpatient Benefits</h4>
+                    <p class="text-gray-600 mb-3">Covers day surgeries, radiotherapy, hemodialysis, and outpatient blood transfusion. This allows members to receive medical care without the need for hospital confinement.</p>
+                     <p class="text-sm font-semibold text-gray-800">Programs Include:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Hemodialysis and Peritoneal Dialysis Sessions.</li>
+                        <li>Chemotherapy and Radiotherapy sessions.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Z Benefits -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Z Benefits Package</h4>
+                    <p class="text-gray-600 mb-3">Designed to help with financially catastrophic illnesses. It provides substantial financial support for treatments that are often costly.</p>
+                     <p class="text-sm font-semibold text-gray-800">Covers treatments for:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Leukemia, Breast Cancer, Prostate Cancer.</li>
+                        <li>Kidney Transplant, Coronary Artery Bypass Graft.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: Maternity Care -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Maternity Care Package (MCP)</h4>
+                    <p class="text-gray-600 mb-3">Covers prenatal care, normal spontaneous delivery services, and postpartum care in accredited hospitals, birthing homes, or maternity clinics.</p>
+                     <p class="text-sm font-semibold text-gray-800">Programs Include:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                         <li>Antenatal care (at least 4 visits).</li>
+                         <li>Normal delivery and postpartum care services.</li>
+                    </ul>
+                </div>
+                 <!-- Benefit Card: Konsulta -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Konsulta Package</h4>
+                    <p class="text-gray-600 mb-3">A primary care benefit package that includes initial and follow-up consultations, health screening, and access to selected diagnostic services and medicines.</p>
+                    <p class="text-sm font-semibold text-gray-800">Services Include:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Consultation and case management.</li>
+                        <li>Labs: CBC, Urinalysis, Chest X-ray.</li>
+                    </ul>
+                </div>
+                <!-- Benefit Card: SDG Benefits -->
+                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">SDG-Related Benefits</h4>
+                    <p class="text-gray-600 mb-3">Packages aimed at achieving Sustainable Development Goals (SDGs), focusing on major public health concerns.</p>
+                    <p class="text-sm font-semibold text-gray-800">Programs Include:</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Outpatient Anti-Tuberculosis Treatment (DOTS).</li>
+                        <li>HIV-AIDS Treatment Package.</li>
+                        <li>Malaria Package.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- HR Note Section -->
+        <section id="hr-note" class="mb-20">
+             <h2 class="section-title">A Note for HR Practitioners</h2>
+            <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-yellow">
+                <p class="text-gray-700 mb-6 max-w-4xl">
+                    Successfully administering these statutory benefits is more than a legal requirement; it's a cornerstone of building a positive and supportive workplace. How these benefits are communicated and managed directly impacts employee morale, engagement, and loyalty. Here are key strategies for HR managers to ensure benefits are not just provided, but also understood and valued by every employee.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-bold text-primary-blue text-lg mb-2">Proactive Onboarding</h4>
+                        <p class="text-gray-600">Clearly explain all statutory benefits during the new hire orientation. Provide a detailed employee handbook (digital or physical) that they can reference anytime.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-primary-blue text-lg mb-2">Regular Communication</h4>
+                        <p class="text-gray-600">Send out regular reminders and updates on new regulations (like annual SSS table changes) through email, company portals, or bulletin boards.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-primary-blue text-lg mb-2">Provide Accessible Support</h4>
+                        <p class="text-gray-600">Designate a go-to person or an HR channel for all benefit-related questions. Ensure employees feel comfortable asking for help with SSS, Pag-IBIG, or PhilHealth applications.</p>
+                    </div>
+                     <div>
+                        <h4 class="font-bold text-primary-blue text-lg mb-2">Streamline Processes</h4>
+                        <p class="text-gray-600">Establish clear, efficient procedures for enrollment, claims, and other benefit-related transactions. Timely processing is critical to building trust.</p>
+                    </div>
+                </div>
+                <p class="text-center text-gray-700 mt-8 font-semibold">By treating benefits administration as a key part of the employee experience, HR can transform it from a compliance task into a powerful tool for retention.</p>
+            </div>
+        </section>
+        
+        <!-- Calculators Section -->
+        <section id="calculators" class="mb-12">
+            <h2 class="section-title">Payroll & Benefits Calculators</h2>
+            <p class="text-gray-700 mb-2 max-w-4xl">
+                These tools provide estimates for various payroll calculations. Please note these are for illustrative purposes and final computations should be verified by your HR or accounting department.
+            </p>
+            <p class="text-sm text-gray-600 mb-8 max-w-4xl">
+                Contribution rates are based on the latest information from:
+                <a href="https://www.sss.gov.ph" target="_blank" class="text-primary-blue underline">SSS</a>,
+                <a href="https://www.gsis.gov.ph" target="_blank" class="text-primary-blue underline">GSIS</a>,
+                <a href="https://www.philhealth.gov.ph" target="_blank" class="text-primary-blue underline">PhilHealth</a>, and
+                <a href="https://www.pagibigfund.gov.ph" target="_blank" class="text-primary-blue underline">Pag-IBIG Fund</a>.
+            </p>
+
+            <!-- Calculator Tabs -->
+            <div class="mb-6 border-b border-gray-200">
+                <nav class="flex space-x-2 -mb-px" aria-label="Tabs">
+                    <button class="tab-button active py-4 px-6 bg-gray-100 text-primary-blue font-semibold border-b-4" data-tab="payroll">Payroll Contributions</button>
+                    <button class="tab-button py-4 px-6 bg-gray-100 text-primary-blue font-semibold border-b-4" data-tab="overtime">Overtime & Premium Pay</button>
+                    <button class="tab-button py-4 px-6 bg-gray-100 text-primary-blue font-semibold border-b-4" data-tab="maternity">SSS Maternity Benefit</button>
+                </nav>
+            </div>
+
+            <!-- Payroll Calculator Tab -->
+            <div id="payroll" class="tab-content active bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold text-primary-blue mb-6">Mandatory Contributions & Net Pay Calculator (2025 SSS Rates)</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="mb-4">
+                            <label for="sector" class="block text-sm font-medium text-gray-700 mb-1">Employee Sector</label>
+                            <select id="sector" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue">
+                                <option value="private">Private</option>
+                                <option value="government">Government</option>
+                            </select>
+                        </div>
+                        <div id="sss-member-type-container">
+                            <label for="sssMemberType" class="block text-sm font-medium text-gray-700 mb-1">SSS Member Type</label>
+                            <select id="sssMemberType" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue mb-4">
+                                <option value="regular">Employed</option>
+                                <option value="kasambahay">Household / Kasambahay</option>
+                                <option value="self_employed">Self-Employed</option>
+                                <option value="voluntary">Voluntary / Non-Working Spouse</option>
+                                <option value="ofw">Landbased OFW</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="monthlySalary" class="block text-sm font-medium text-gray-700 mb-1">Basic Monthly Salary (PHP)</label>
+                            <input type="number" id="monthlySalary" placeholder="e.g., 25000" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue">
+                        </div>
+                         <button id="calculatePayroll" class="w-full bg-primary-blue text-white py-3 rounded-md font-bold hover:bg-blue-700 transition">Calculate Net Pay</button>
+                         <div class="mt-4 text-center space-x-4">
+                            <a href="https://www.sss.gov.ph/wp-content/uploads/2024/12/2025-SSS-Contribution-Table-rev.pdf" target="_blank" class="text-sm text-primary-blue underline hover:text-primary-red">View 2025 SSS Table (PDF)</a>
+                            <a href="https://www.philhealth.gov.ph/partners/employers/ContributionTable_v2.pdf" target="_blank" class="text-sm text-primary-blue underline hover:text-primary-red">View PhilHealth Table</a>
+                         </div>
+                    </div>
+                    <div id="payrollResult" class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-lg text-gray-800 mb-4">Your Estimated Monthly Payslip</h4>
+                        <div class="space-y-3 text-sm">
+                            <div class="flex justify-between"><span>Gross Monthly Salary:</span> <span id="resGross" class="font-semibold">₱0.00</span></div>
+                            <hr>
+                            <div class="flex justify-between text-red-600"><strong>Deductions:</strong></div>
+                            <div class="flex justify-between pl-4">
+                                <span id="contributionType">SSS Regular Contribution:</span> 
+                                <span id="resContribution" class="font-semibold">₱0.00</span>
+                            </div>
+                            <div id="mpf-row" class="flex justify-between pl-4">
+                                <span>SSS MPF / WISP:</span> 
+                                <span id="resMpf" class="font-semibold">₱0.00</span>
+                            </div>
+                            <div class="flex justify-between pl-4"><span>PhilHealth Contribution:</span> <span id="resPhilhealth" class="font-semibold">₱0.00</span></div>
+                            <div class="flex justify-between pl-4"><span>Pag-IBIG Contribution:</span> <span id="resPagibig" class="font-semibold">₱0.00</span></div>
+                            <div class="flex justify-between pl-4 text-gray-500">
+                                <span><em>Withholding Tax (Est.):</em></span>
+                                <span id="resTax" class="font-semibold"><em>₱0.00</em></span>
+                            </div>
+                             <hr>
+                            <div class="flex justify-between text-red-600"><strong>Total Deductions (Pre-Tax):</strong> <strong id="resTotalDeductions" class="font-semibold">₱0.00</strong></div>
+                            <hr class="my-4 border-t-2 border-dashed border-primary-blue">
+                            <div class="flex justify-between text-lg text-primary-blue"><strong>Net Pay (Before Tax):</strong> <strong id="resNetPay" class="font-bold">₱0.00</strong></div>
+                            <hr class="mt-4">
+                             <p class="text-xs text-gray-500 text-center mt-2 px-4"><em>Note: Withholding tax is shown for reference but is not included in the totals. Actual tax may vary based on your BIR registration.</em></p>
+                            <p class="text-xs text-gray-500 pt-2">Employer shares are calculated but not deducted from your gross pay.</p>
+                            <div class="flex justify-between text-xs text-gray-500"><span id="erContributionType">ER SSS Regular Share:</span> <span id="resErContribution">₱0.00</span></div>
+                            <div id="er-mpf-row" class="flex justify-between text-xs text-gray-500"><span>ER SSS WISP Share:</span> <span id="resErMpf">₱0.00</span></div>
+                            <div class="flex justify-between text-xs text-gray-500"><span>ER PhilHealth Share:</span> <span id="resErPhilhealth">₱0.00</span></div>
+                            <div class="flex justify-between text-xs text-gray-500"><span>ER Pag-IBIG Share:</span> <span id="resErPagibig">₱0.00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overtime Calculator Tab -->
+            <div id="overtime" class="tab-content bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold text-primary-blue mb-6">Overtime & Premium Pay Calculator</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                     <div>
+                        <div class="mb-4">
+                            <label for="dailyPay" class="block text-sm font-medium text-gray-700 mb-1">Basic Pay Per Day (PHP)</label>
+                            <input type="number" id="dailyPay" placeholder="e.g., 610" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue">
+                        </div>
+                        <div class="mb-4">
+                            <label for="workType" class="block text-sm font-medium text-gray-700 mb-1">Type of Work Day</label>
+                            <select id="workType" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue">
+                                <option value="regular_ot">Regular Day + Overtime</option>
+                                <option value="rest">Rest Day</option>
+                                <option value="special">Special Non-Working Day</option>
+                                <option value="rest_special">Rest Day on Special Day</option>
+                                <option value="holiday">Regular Holiday</option>
+                                <option value="rest_holiday">Rest Day on Regular Holiday</option>
+                            </select>
+                        </div>
+                         <div class="mb-4">
+                            <label for="hoursWorked" class="block text-sm font-medium text-gray-700 mb-1">Total Hours Worked</label>
+                            <input type="number" id="hoursWorked" placeholder="e.g., 10" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary-blue focus:border-primary-blue">
+                        </div>
+                         <button id="calculateOvertime" class="w-full bg-primary-blue text-white py-3 rounded-md font-bold hover:bg-blue-700 transition">Calculate Pay</button>
+                    </div>
+                    <div id="overtimeResult" class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-lg text-gray-800 mb-4">Estimated Pay for the Day</h4>
+                        <div class="space-y-3">
+                           <div class="flex justify-between"><span>Hourly Rate:</span> <span id="resHourlyRate" class="font-semibold">₱0.00</span></div>
+                           <hr>
+                           <div class="flex justify-between"><span>Regular Pay (8 hrs):</span> <span id="resRegularPay" class="font-semibold">₱0.00</span></div>
+                           <div class="flex justify-between"><span>Premium Pay:</span> <span id="resPremiumPay" class="font-semibold">₱0.00</span></div>
+                           <div class="flex justify-between"><span>Overtime Pay:</span> <span id="resOvertimePay" class="font-semibold">₱0.00</span></div>
+                           <hr class="my-4 border-t-2 border-dashed border-primary-blue">
+                           <div class="flex justify-between text-lg text-primary-blue"><strong>Total Pay for the Day:</strong> <strong id="resTotalDayPay" class="font-bold">₱0.00</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maternity Calculator Tab -->
+            <div id="maternity" class="tab-content bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold text-primary-blue mb-2">SSS Maternity Benefit Calculator (2025 Rates)</h3>
+                <p class="text-gray-600 mb-6 text-sm">
+                    This calculator provides an estimate based on the SSS contribution table for <strong>business employers and their employees</strong>. The actual computation may vary for other member types such as Kasambahay, Self-Employed, Voluntary Members, Non-Working Spouses, and Landbased OFWs, as they follow different contribution schedules.
+                    <br><br>
+                    To be eligible, you must have at least 3 monthly SSS contributions within the 12-month period immediately preceding the semester of childbirth or miscarriage. Enter your 6 highest Monthly Salary Credits (MSCs) from that 12-month period. The maximum MSC for 2025 is ₱35,000.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                     <div>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 1 (max 35k)">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 2 (max 35k)">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 3 (max 35k)">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 4 (max 35k)">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 5 (max 35k)">
+                            <input type="number" class="msc-input w-full p-2 border border-gray-300 rounded-md" placeholder="Highest MSC 6 (max 35k)">
+                        </div>
+                         <button id="calculateMaternity" class="w-full bg-primary-blue text-white py-3 rounded-md font-bold hover:bg-blue-700 transition">Calculate Benefit</button>
+                    </div>
+                    <div id="maternityResult" class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-center items-center text-center">
+                        <h4 class="font-bold text-lg text-gray-800 mb-2">Estimated Total Maternity Benefit</h4>
+                        <p id="resMaternityBenefit" class="text-4xl font-extrabold text-primary-blue">₱0.00</p>
+                        <p class="text-sm text-gray-500 mt-2">(for 105 days)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="bg-primary-blue text-white mt-20">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2024 BenefitsPH Guide. For educational purposes only.</p>
+            <p class="text-sm text-blue-200 mt-2">Information is based on the DOLE 2024 Handbook and publicly available data on government contributions. Always consult official sources for legal advice.</p>
+            <p class="text-sm text-blue-200 mt-2">
+                <a href="https://bwc.dole.gov.ph/images/Downloads/2024-Handbook-on-Workers-Statutory-Monetary-Benefits.pdf" target="_blank" class="underline hover:text-primary-yellow">Download the DOLE 2024 Handbook</a>
+            </p>
+        </div>
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Mobile Menu Toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if(mobileMenuButton) {
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+
+    // --- Tab Functionality ---
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const tabId = button.dataset.tab;
+            tabContents.forEach(content => {
+                if (content.id === tabId) {
+                    content.classList.add('active');
+                } else {
+                    content.classList.remove('active');
+                }
+            });
+        });
+    });
+
+    // --- Dynamic SSS Member Type Selector ---
+    const sectorSelect = document.getElementById('sector');
+    const sssMemberTypeContainer = document.getElementById('sss-member-type-container');
+    const mpfRow = document.getElementById('mpf-row');
+
+    if(sectorSelect) {
+        sectorSelect.addEventListener('change', () => {
+            if (sectorSelect.value === 'government') {
+                sssMemberTypeContainer.style.display = 'none';
+                mpfRow.style.display = 'none';
+            } else {
+                sssMemberTypeContainer.style.display = 'block';
+                mpfRow.style.display = 'flex';
+            }
+        });
+    }
+
+
+    // --- Payroll Calculator Logic ---
+    const calculatePayrollBtn = document.getElementById('calculatePayroll');
+    if (calculatePayrollBtn) {
+        // --- COMPLETE SSS 2025 Contribution Data Tables ---
+
+        // Table A & B: For Business Employees & Kasambahay
+        const sssBusinessTable2025 = [
+            { rangeMin: 0, rangeMax: 5249.99, msc: 5000, reg_ee: 250, wisp_ee: 0, reg_er: 500, wisp_er: 0 },
+            { rangeMin: 5250, rangeMax: 5749.99, msc: 5500, reg_ee: 275, wisp_ee: 0, reg_er: 550, wisp_er: 0 },
+            { rangeMin: 5750, rangeMax: 6249.99, msc: 6000, reg_ee: 300, wisp_ee: 0, reg_er: 600, wisp_er: 0 },
+            { rangeMin: 6250, rangeMax: 6749.99, msc: 6500, reg_ee: 325, wisp_ee: 0, reg_er: 650, wisp_er: 0 },
+            { rangeMin: 6750, rangeMax: 7249.99, msc: 7000, reg_ee: 350, wisp_ee: 0, reg_er: 700, wisp_er: 0 },
+            { rangeMin: 7250, rangeMax: 7749.99, msc: 7500, reg_ee: 375, wisp_ee: 0, reg_er: 750, wisp_er: 0 },
+            { rangeMin: 7750, rangeMax: 8249.99, msc: 8000, reg_ee: 400, wisp_ee: 0, reg_er: 800, wisp_er: 0 },
+            { rangeMin: 8250, rangeMax: 8749.99, msc: 8500, reg_ee: 425, wisp_ee: 0, reg_er: 850, wisp_er: 0 },
+            { rangeMin: 8750, rangeMax: 9249.99, msc: 9000, reg_ee: 450, wisp_ee: 0, reg_er: 900, wisp_er: 0 },
+            { rangeMin: 9250, rangeMax: 9749.99, msc: 9500, reg_ee: 475, wisp_ee: 0, reg_er: 950, wisp_er: 0 },
+            { rangeMin: 9750, rangeMax: 10249.99, msc: 10000, reg_ee: 500, wisp_ee: 0, reg_er: 1000, wisp_er: 0 },
+            { rangeMin: 10250, rangeMax: 10749.99, msc: 10500, reg_ee: 525, wisp_ee: 0, reg_er: 1050, wisp_er: 0 },
+            { rangeMin: 10750, rangeMax: 11249.99, msc: 11000, reg_ee: 550, wisp_ee: 0, reg_er: 1100, wisp_er: 0 },
+            { rangeMin: 11250, rangeMax: 11749.99, msc: 11500, reg_ee: 575, wisp_ee: 0, reg_er: 1150, wisp_er: 0 },
+            { rangeMin: 11750, rangeMax: 12249.99, msc: 12000, reg_ee: 600, wisp_ee: 0, reg_er: 1200, wisp_er: 0 },
+            { rangeMin: 12250, rangeMax: 12749.99, msc: 12500, reg_ee: 625, wisp_ee: 0, reg_er: 1250, wisp_er: 0 },
+            { rangeMin: 12750, rangeMax: 13249.99, msc: 13000, reg_ee: 650, wisp_ee: 0, reg_er: 1300, wisp_er: 0 },
+            { rangeMin: 13250, rangeMax: 13749.99, msc: 13500, reg_ee: 675, wisp_ee: 0, reg_er: 1350, wisp_er: 0 },
+            { rangeMin: 13750, rangeMax: 14249.99, msc: 14000, reg_ee: 700, wisp_ee: 0, reg_er: 1400, wisp_er: 0 },
+            { rangeMin: 14250, rangeMax: 14749.99, msc: 14500, reg_ee: 725, wisp_ee: 0, reg_er: 1450, wisp_er: 0 },
+            { rangeMin: 14750, rangeMax: 15249.99, msc: 15000, reg_ee: 750, wisp_ee: 0, reg_er: 1500, wisp_er: 0 },
+            { rangeMin: 15250, rangeMax: 15749.99, msc: 15500, reg_ee: 775, wisp_ee: 0, reg_er: 1550, wisp_er: 0 },
+            { rangeMin: 15750, rangeMax: 16249.99, msc: 16000, reg_ee: 800, wisp_ee: 0, reg_er: 1600, wisp_er: 0 },
+            { rangeMin: 16250, rangeMax: 16749.99, msc: 16500, reg_ee: 825, wisp_ee: 0, reg_er: 1650, wisp_er: 0 },
+            { rangeMin: 16750, rangeMax: 17249.99, msc: 17000, reg_ee: 850, wisp_ee: 0, reg_er: 1700, wisp_er: 0 },
+            { rangeMin: 17250, rangeMax: 17749.99, msc: 17500, reg_ee: 875, wisp_ee: 0, reg_er: 1750, wisp_er: 0 },
+            { rangeMin: 17750, rangeMax: 18249.99, msc: 18000, reg_ee: 900, wisp_ee: 0, reg_er: 1800, wisp_er: 0 },
+            { rangeMin: 18250, rangeMax: 18749.99, msc: 18500, reg_ee: 925, wisp_ee: 0, reg_er: 1850, wisp_er: 0 },
+            { rangeMin: 18750, rangeMax: 19249.99, msc: 19000, reg_ee: 950, wisp_ee: 0, reg_er: 1900, wisp_er: 0 },
+            { rangeMin: 19250, rangeMax: 19749.99, msc: 19500, reg_ee: 975, wisp_ee: 0, reg_er: 1950, wisp_er: 0 },
+            { rangeMin: 19750, rangeMax: 20249.99, msc: 20000, reg_ee: 1000, wisp_ee: 0, reg_er: 2000, wisp_er: 0 },
+            { rangeMin: 20250, rangeMax: 20749.99, msc: 20500, reg_ee: 1000, wisp_ee: 25, reg_er: 2000, wisp_er: 50 },
+            { rangeMin: 20750, rangeMax: 21249.99, msc: 21000, reg_ee: 1000, wisp_ee: 50, reg_er: 2000, wisp_er: 100 },
+            { rangeMin: 21250, rangeMax: 21749.99, msc: 21500, reg_ee: 1000, wisp_ee: 75, reg_er: 2000, wisp_er: 150 },
+            { rangeMin: 21750, rangeMax: 22249.99, msc: 22000, reg_ee: 1000, wisp_ee: 100, reg_er: 2000, wisp_er: 200 },
+            { rangeMin: 22250, rangeMax: 22749.99, msc: 22500, reg_ee: 1000, wisp_ee: 125, reg_er: 2000, wisp_er: 250 },
+            { rangeMin: 22750, rangeMax: 23249.99, msc: 23000, reg_ee: 1000, wisp_ee: 150, reg_er: 2000, wisp_er: 300 },
+            { rangeMin: 23250, rangeMax: 23749.99, msc: 23500, reg_ee: 1000, wisp_ee: 175, reg_er: 2000, wisp_er: 350 },
+            { rangeMin: 23750, rangeMax: 24249.99, msc: 24000, reg_ee: 1000, wisp_ee: 200, reg_er: 2000, wisp_er: 400 },
+            { rangeMin: 24250, rangeMax: 24749.99, msc: 24500, reg_ee: 1000, wisp_ee: 225, reg_er: 2000, wisp_er: 450 },
+            { rangeMin: 24750, rangeMax: 25249.99, msc: 25000, reg_ee: 1000, wisp_ee: 250, reg_er: 2000, wisp_er: 500 },
+            { rangeMin: 25250, rangeMax: 25749.99, msc: 25500, reg_ee: 1000, wisp_ee: 275, reg_er: 2000, wisp_er: 550 },
+            { rangeMin: 25750, rangeMax: 26249.99, msc: 26000, reg_ee: 1000, wisp_ee: 300, reg_er: 2000, wisp_er: 600 },
+            { rangeMin: 26250, rangeMax: 26749.99, msc: 26500, reg_ee: 1000, wisp_ee: 325, reg_er: 2000, wisp_er: 650 },
+            { rangeMin: 26750, rangeMax: 27249.99, msc: 27000, reg_ee: 1000, wisp_ee: 350, reg_er: 2000, wisp_er: 700 },
+            { rangeMin: 27250, rangeMax: 27749.99, msc: 27500, reg_ee: 1000, wisp_ee: 375, reg_er: 2000, wisp_er: 750 },
+            { rangeMin: 27750, rangeMax: 28249.99, msc: 28000, reg_ee: 1000, wisp_ee: 400, reg_er: 2000, wisp_er: 800 },
+            { rangeMin: 28250, rangeMax: 28749.99, msc: 28500, reg_ee: 1000, wisp_ee: 425, reg_er: 2000, wisp_er: 850 },
+            { rangeMin: 28750, rangeMax: 29249.99, msc: 29000, reg_ee: 1000, wisp_ee: 450, reg_er: 2000, wisp_er: 900 },
+            { rangeMin: 29250, rangeMax: 29749.99, msc: 29500, reg_ee: 1000, wisp_ee: 475, reg_er: 2000, wisp_er: 950 },
+            { rangeMin: 29750, rangeMax: 30249.99, msc: 30000, reg_ee: 1000, wisp_ee: 500, reg_er: 2000, wisp_er: 1000 },
+            { rangeMin: 30250, rangeMax: 30749.99, msc: 30500, reg_ee: 1000, wisp_ee: 525, reg_er: 2000, wisp_er: 1050 },
+            { rangeMin: 30750, rangeMax: 31249.99, msc: 31000, reg_ee: 1000, wisp_ee: 550, reg_er: 2000, wisp_er: 1100 },
+            { rangeMin: 31250, rangeMax: 31749.99, msc: 31500, reg_ee: 1000, wisp_ee: 575, reg_er: 2000, wisp_er: 1150 },
+            { rangeMin: 31750, rangeMax: 32249.99, msc: 32000, reg_ee: 1000, wisp_ee: 600, reg_er: 2000, wisp_er: 1200 },
+            { rangeMin: 32250, rangeMax: 32749.99, msc: 32500, reg_ee: 1000, wisp_ee: 625, reg_er: 2000, wisp_er: 1250 },
+            { rangeMin: 32750, rangeMax: 33249.99, msc: 33000, reg_ee: 1000, wisp_ee: 650, reg_er: 2000, wisp_er: 1300 },
+            { rangeMin: 33250, rangeMax: 33749.99, msc: 33500, reg_ee: 1000, wisp_ee: 675, reg_er: 2000, wisp_er: 1350 },
+            { rangeMin: 33750, rangeMax: 34249.99, msc: 34000, reg_ee: 1000, wisp_ee: 700, reg_er: 2000, wisp_er: 1400 },
+            { rangeMin: 34250, rangeMax: 34749.99, msc: 34500, reg_ee: 1000, wisp_ee: 725, reg_er: 2000, wisp_er: 1450 },
+            { rangeMin: 34750, rangeMax: 999999, msc: 35000, reg_ee: 1000, wisp_ee: 750, reg_er: 2000, wisp_er: 1500 }
+        ];
+
+        // Table C, D, E: For Self-Employed, Voluntary, Non-Working Spouse, and OFW
+        const sssSelfEmployedTable2025 = [
+            { rangeMin: 0, rangeMax: 5249.99, msc: 5000, reg_ss: 750, mpf: 0 },
+            { rangeMin: 5250, rangeMax: 5749.99, msc: 5500, reg_ss: 825, mpf: 0 },
+            { rangeMin: 5750, rangeMax: 6249.99, msc: 6000, reg_ss: 900, mpf: 0 },
+            { rangeMin: 6250, rangeMax: 6749.99, msc: 6500, reg_ss: 975, mpf: 0 },
+            { rangeMin: 6750, rangeMax: 7249.99, msc: 7000, reg_ss: 1050, mpf: 0 },
+            { rangeMin: 7250, rangeMax: 7749.99, msc: 7500, reg_ss: 1125, mpf: 0 },
+            { rangeMin: 7750, rangeMax: 8249.99, msc: 8000, reg_ss: 1200, mpf: 0 },
+            { rangeMin: 8250, rangeMax: 8749.99, msc: 8500, reg_ss: 1275, mpf: 0 },
+            { rangeMin: 8750, rangeMax: 9249.99, msc: 9000, reg_ss: 1350, mpf: 0 },
+            { rangeMin: 9250, rangeMax: 9749.99, msc: 9500, reg_ss: 1425, mpf: 0 },
+            { rangeMin: 9750, rangeMax: 10249.99, msc: 10000, reg_ss: 1500, mpf: 0 },
+            { rangeMin: 10250, rangeMax: 10749.99, msc: 10500, reg_ss: 1575, mpf: 0 },
+            { rangeMin: 10750, rangeMax: 11249.99, msc: 11000, reg_ss: 1650, mpf: 0 },
+            { rangeMin: 11250, rangeMax: 11749.99, msc: 11500, reg_ss: 1725, mpf: 0 },
+            { rangeMin: 11750, rangeMax: 12249.99, msc: 12000, reg_ss: 1800, mpf: 0 },
+            { rangeMin: 12250, rangeMax: 12749.99, msc: 12500, reg_ss: 1875, mpf: 0 },
+            { rangeMin: 12750, rangeMax: 13249.99, msc: 13000, reg_ss: 1950, mpf: 0 },
+            { rangeMin: 13250, rangeMax: 13749.99, msc: 13500, reg_ss: 2025, mpf: 0 },
+            { rangeMin: 13750, rangeMax: 14249.99, msc: 14000, reg_ss: 2100, mpf: 0 },
+            { rangeMin: 14250, rangeMax: 14749.99, msc: 14500, reg_ss: 2175, mpf: 0 },
+            { rangeMin: 14750, rangeMax: 15249.99, msc: 15000, reg_ss: 2250, mpf: 0 },
+            { rangeMin: 15250, rangeMax: 15749.99, msc: 15500, reg_ss: 2325, mpf: 0 },
+            { rangeMin: 15750, rangeMax: 16249.99, msc: 16000, reg_ss: 2400, mpf: 0 },
+            { rangeMin: 16250, rangeMax: 16749.99, msc: 16500, reg_ss: 2475, mpf: 0 },
+            { rangeMin: 16750, rangeMax: 17249.99, msc: 17000, reg_ss: 2550, mpf: 0 },
+            { rangeMin: 17250, rangeMax: 17749.99, msc: 17500, reg_ss: 2625, mpf: 0 },
+            { rangeMin: 17750, rangeMax: 18249.99, msc: 18000, reg_ss: 2700, mpf: 0 },
+            { rangeMin: 18250, rangeMax: 18749.99, msc: 18500, reg_ss: 2775, mpf: 0 },
+            { rangeMin: 18750, rangeMax: 19249.99, msc: 19000, reg_ss: 2850, mpf: 0 },
+            { rangeMin: 19250, rangeMax: 19749.99, msc: 19500, reg_ss: 2925, mpf: 0 },
+            { rangeMin: 19750, rangeMax: 20249.99, msc: 20000, reg_ss: 3000, mpf: 0 },
+            { rangeMin: 20250, rangeMax: 20749.99, msc: 20500, reg_ss: 3000, mpf: 75 },
+            { rangeMin: 20750, rangeMax: 21249.99, msc: 21000, reg_ss: 3000, mpf: 150 },
+            { rangeMin: 21250, rangeMax: 21749.99, msc: 21500, reg_ss: 3000, mpf: 225 },
+            { rangeMin: 21750, rangeMax: 22249.99, msc: 22000, reg_ss: 3000, mpf: 300 },
+            { rangeMin: 22250, rangeMax: 22749.99, msc: 22500, reg_ss: 3000, mpf: 375 },
+            { rangeMin: 22750, rangeMax: 23249.99, msc: 23000, reg_ss: 3000, mpf: 450 },
+            { rangeMin: 23250, rangeMax: 23749.99, msc: 23500, reg_ss: 3000, mpf: 525 },
+            { rangeMin: 23750, rangeMax: 24249.99, msc: 24000, reg_ss: 3000, mpf: 600 },
+            { rangeMin: 24250, rangeMax: 24749.99, msc: 24500, reg_ss: 3000, mpf: 675 },
+            { rangeMin: 24750, rangeMax: 25249.99, msc: 25000, reg_ss: 3000, mpf: 750 },
+            { rangeMin: 25250, rangeMax: 25749.99, msc: 25500, reg_ss: 3000, mpf: 825 },
+            { rangeMin: 25750, rangeMax: 26249.99, msc: 26000, reg_ss: 3000, mpf: 900 },
+            { rangeMin: 26250, rangeMax: 26749.99, msc: 26500, reg_ss: 3000, mpf: 975 },
+            { rangeMin: 26750, rangeMax: 27249.99, msc: 27000, reg_ss: 3000, mpf: 1050 },
+            { rangeMin: 27250, rangeMax: 27749.99, msc: 27500, reg_ss: 3000, mpf: 1125 },
+            { rangeMin: 27750, rangeMax: 28249.99, msc: 28000, reg_ss: 3000, mpf: 1200 },
+            { rangeMin: 28250, rangeMax: 28749.99, msc: 28500, reg_ss: 3000, mpf: 1275 },
+            { rangeMin: 28750, rangeMax: 29249.99, msc: 29000, reg_ss: 3000, mpf: 1350 },
+            { rangeMin: 29250, rangeMax: 29749.99, msc: 29500, reg_ss: 3000, mpf: 1425 },
+            { rangeMin: 29750, rangeMax: 30249.99, msc: 30000, reg_ss: 3000, mpf: 1500 },
+            { rangeMin: 30250, rangeMax: 30749.99, msc: 30500, reg_ss: 3000, mpf: 1575 },
+            { rangeMin: 30750, rangeMax: 31249.99, msc: 31000, reg_ss: 3000, mpf: 1650 },
+            { rangeMin: 31250, rangeMax: 31749.99, msc: 31500, reg_ss: 3000, mpf: 1725 },
+            { rangeMin: 31750, rangeMax: 32249.99, msc: 32000, reg_ss: 3000, mpf: 1800 },
+            { rangeMin: 32250, rangeMax: 32749.99, msc: 32500, reg_ss: 3000, mpf: 1875 },
+            { rangeMin: 32750, rangeMax: 33249.99, msc: 33000, reg_ss: 3000, mpf: 1950 },
+            { rangeMin: 33250, rangeMax: 33749.99, msc: 33500, reg_ss: 3000, mpf: 2025 },
+            { rangeMin: 33750, rangeMax: 34249.99, msc: 34000, reg_ss: 3000, mpf: 2100 },
+            { rangeMin: 34250, rangeMax: 34749.99, msc: 34500, reg_ss: 3000, mpf: 2175 },
+            { rangeMin: 34750, rangeMax: 999999, msc: 35000, reg_ss: 3000, mpf: 2250 }
+        ];
+
+        calculatePayrollBtn.addEventListener('click', () => {
+            const sector = document.getElementById('sector').value;
+            const sssMemberType = document.getElementById('sssMemberType').value;
+            const salary = parseFloat(document.getElementById('monthlySalary').value) || 0;
+
+            let eeContribution = 0, erContribution = 0, mpfEE = 0, mpfER = 0;
+            let philhealthEE = 0, philhealthER = 0, pagibigEE = 0, pagibigER = 0;
+
+            // --- PhilHealth Calculation (5% for 2024, capped at 100,000 salary ceiling)
+            const philhealthBase = Math.min(salary, 100000);
+            const totalPhilhealth = Math.max(500, philhealthBase * 0.05); // Min contribution is 500
+            philhealthEE = totalPhilhealth / 2;
+            philhealthER = totalPhilhealth / 2;
+
+            // --- Pag-IBIG Calculation (2% rate, 100 max EE contribution)
+            pagibigEE = Math.min(salary * 0.02, 100);
+            pagibigER = Math.min(salary * 0.02, 100);
+            if (salary >= 1000 && salary <= 1500) {
+                 pagibigEE = salary * 0.01;
+            }
+
+
+            if (sector === 'private') {
+                document.getElementById('contributionType').textContent = 'SSS Regular Contribution:';
+                document.getElementById('erContributionType').textContent = 'ER SSS Regular Share:';
+                document.getElementById('mpf-row').style.display = 'flex';
+                document.getElementById('er-mpf-row').style.display = 'flex';
+                
+                // --- Comprehensive SSS Calculation based on 2025 Table Lookup ---
+                const getSssContribution = (sal, type) => {
+                    let ss_ee = 0, ss_er = 0, mpf_ee = 0, mpf_er = 0;
+                    
+                    switch(type) {
+                        case 'regular': {
+                            let bracket = sssBusinessTable2025.find(b => sal >= b.rangeMin && sal <= b.rangeMax);
+                            if (!bracket) return { ss_ee: 0, ss_er: 0, mpf_ee: 0, mpf_er: 0 };
+                            ss_ee = bracket.reg_ee;
+                            ss_er = bracket.reg_er;
+                            mpf_ee = bracket.wisp_ee;
+                            mpf_er = bracket.wisp_er;
+                            break;
+                        }
+                        case 'kasambahay': {
+                            let bracket = sssBusinessTable2025.find(b => sal >= b.rangeMin && sal <= b.rangeMax);
+                            if (!bracket) return { ss_ee: 0, ss_er: 0, mpf_ee: 0, mpf_er: 0 };
+                             if (sal < 5000) {
+                                // For Kasambahay earning < 5k, ER pays all
+                                ss_ee = 0;
+                                mpf_ee = 0;
+                                ss_er = bracket.reg_ee + bracket.reg_er;
+                                mpf_er = bracket.wisp_ee + bracket.wisp_er;
+                            } else {
+                                ss_ee = bracket.reg_ee;
+                                ss_er = bracket.reg_er;
+                                mpf_ee = bracket.wisp_ee;
+                                mpf_er = bracket.wisp_er;
+                            }
+                            break;
+                        }
+                        case 'self_employed':
+                        case 'voluntary':
+                        case 'ofw': {
+                             let bracket = sssSelfEmployedTable2025.find(b => sal >= b.rangeMin && sal <= b.rangeMax);
+                             if (!bracket) return { ss_ee: 0, ss_er: 0, mpf_ee: 0, mpf_er: 0 };
+                             ss_ee = bracket.reg_ss;
+                             mpf_ee = bracket.mpf;
+                             // No ER share for these types
+                             ss_er = 0;
+                             mpf_er = 0;
+                             break;
+                        }
+                    }
+                    return { ss_ee, ss_er, mpf_ee, mpf_er };
+                };
+                
+                const sss = getSssContribution(salary, sssMemberType);
+                eeContribution = sss.ss_ee;
+                erContribution = sss.ss_er;
+                mpfEE = sss.mpf_ee;
+                mpfER = sss.mpf_er;
+
+                // Update ER display
+                document.getElementById('resErMpf').textContent = `₱${mpfER.toFixed(2)}`;
+
+
+            } else { // Government
+                document.getElementById('contributionType').textContent = 'GSIS Contribution:';
+                document.getElementById('erContributionType').textContent = 'ER GSIS Share:';
+                document.getElementById('mpf-row').style.display = 'none';
+                document.getElementById('er-mpf-row').style.display = 'none';
+
+                // GSIS Calculation
+                eeContribution = salary * 0.09;
+                erContribution = salary * 0.12;
+                mpfEE = 0; // No MPF for GSIS in this simple calculator
+            }
+
+            // --- Withholding Tax Calculation ---
+            const totalContributions = (sector === 'private' ? (eeContribution + mpfEE) : eeContribution) + philhealthEE + pagibigEE;
+            const taxableIncome = salary - totalContributions;
+            let tax = 0;
+            
+            if (sssMemberType !== 'ofw') { // OFWs generally tax-exempt on foreign income
+                if (taxableIncome > 666666.67) {
+                    tax = 183541.67 + (taxableIncome - 666666.67) * 0.35;
+                } else if (taxableIncome > 166666.67) {
+                    tax = 33541.67 + (taxableIncome - 166666.67) * 0.30;
+                } else if (taxableIncome > 66666.67) {
+                    tax = 8541.67 + (taxableIncome - 66666.67) * 0.25;
+                } else if (taxableIncome > 33333.33) {
+                    tax = 1875 + (taxableIncome - 33333.33) * 0.20;
+                } else if (taxableIncome > 20833.33) {
+                    tax = (taxableIncome - 20833.33) * 0.15;
+                }
+            }
+            
+            // --- Update UI ---
+            const totalDeductions = eeContribution + mpfEE + philhealthEE + pagibigEE; // TAX IS EXCLUDED FROM TOTALS
+            const netPay = salary - totalDeductions;
+            
+            document.getElementById('resGross').textContent = `₱${salary.toFixed(2)}`;
+            document.getElementById('resContribution').textContent = `₱${eeContribution.toFixed(2)}`;
+            document.getElementById('resMpf').textContent = `₱${mpfEE.toFixed(2)}`;
+            document.getElementById('resPhilhealth').textContent = `₱${philhealthEE.toFixed(2)}`;
+            document.getElementById('resPagibig').textContent = `₱${pagibigEE.toFixed(2)}`;
+            document.getElementById('resTax').textContent = `₱${tax.toFixed(2)}`;
+
+            document.getElementById('resTotalDeductions').textContent = `₱${totalDeductions.toFixed(2)}`;
+            document.getElementById('resNetPay').textContent = `₱${netPay.toFixed(2)}`;
+            
+            document.getElementById('resErContribution').textContent = `₱${erContribution.toFixed(2)}`;
+            document.getElementById('resErPhilhealth').textContent = `₱${philhealthER.toFixed(2)}`;
+            document.getElementById('resErPagibig').textContent = `₱${pagibigER.toFixed(2)}`;
+        });
+    }
+
+    // --- Overtime Calculator Logic ---
+    const calculateOvertimeBtn = document.getElementById('calculateOvertime');
+    if (calculateOvertimeBtn) {
+        calculateOvertimeBtn.addEventListener('click', () => {
+            const dailyPay = parseFloat(document.getElementById('dailyPay').value) || 0;
+            const workType = document.getElementById('workType').value;
+            const hoursWorked = parseFloat(document.getElementById('hoursWorked').value) || 0;
+
+            if (dailyPay <= 0 || hoursWorked < 0) return;
+
+            const hourlyRate = dailyPay / 8;
+            const overtimeHours = Math.max(0, hoursWorked - 8);
+            const regularHours = hoursWorked - overtimeHours;
+
+            let totalDayPay = 0;
+            let premiumPay = 0;
+            let overtimePay = 0;
+            let regularPay = dailyPay;
+
+            switch (workType) {
+                case 'regular_ot':
+                    overtimePay = overtimeHours * hourlyRate * 1.25;
+                    totalDayPay = dailyPay + overtimePay;
+                    break;
+                case 'rest':
+                case 'special':
+                    overtimePay = overtimeHours * hourlyRate * 1.3 * 1.3;
+                    premiumPay = (regularHours * hourlyRate * 1.3) - (regularHours * hourlyRate);
+                    totalDayPay = (regularHours * hourlyRate * 1.3) + overtimePay;
+                    break;
+                case 'rest_special':
+                    overtimePay = overtimeHours * hourlyRate * 1.5 * 1.3;
+                    premiumPay = (regularHours * hourlyRate * 1.5) - (regularHours * hourlyRate);
+                    totalDayPay = (regularHours * hourlyRate * 1.5) + overtimePay;
+                    break;
+                case 'holiday':
+                    overtimePay = overtimeHours * hourlyRate * 2.0 * 1.3;
+                    premiumPay = (regularHours * hourlyRate * 2.0) - (regularHours * hourlyRate);
+                    totalDayPay = (regularHours * hourlyRate * 2.0) + overtimePay;
+                    // An employee is entitled to at least 100% of their minimum wage even if they did not report for work
+                    if(hoursWorked === 0) totalDayPay = dailyPay;
+                    break;
+                case 'rest_holiday':
+                    overtimePay = overtimeHours * hourlyRate * 2.6 * 1.3;
+                    premiumPay = (regularHours * hourlyRate * 2.6) - (regularHours * hourlyRate);
+                    totalDayPay = (regularHours * hourlyRate * 2.6) + overtimePay;
+                    break;
+            }
+            
+            if (workType !== 'regular_ot' && hoursWorked > 0){
+                regularPay = regularHours * hourlyRate;
+            } else if (hoursWorked === 0 && workType !== 'holiday'){
+                regularPay = 0;
+            }
+             
+            document.getElementById('resHourlyRate').textContent = `₱${hourlyRate.toFixed(2)}`;
+            document.getElementById('resRegularPay').textContent = `₱${regularPay.toFixed(2)}`;
+            document.getElementById('resPremiumPay').textContent = `₱${premiumPay.toFixed(2)}`;
+            document.getElementById('resOvertimePay').textContent = `₱${overtimePay.toFixed(2)}`;
+            document.getElementById('resTotalDayPay').textContent = `₱${totalDayPay.toFixed(2)}`;
+        });
+    }
+
+    // --- Maternity Calculator Logic ---
+    const calculateMaternityBtn = document.getElementById('calculateMaternity');
+    if (calculateMaternityBtn) {
+        calculateMaternityBtn.addEventListener('click', () => {
+            const mscInputs = document.querySelectorAll('.msc-input');
+            let mscValues = [];
+            mscInputs.forEach(input => {
+                const val = parseFloat(input.value);
+                if (!isNaN(val)) {
+                    // Cap the MSC at the 2025 maximum
+                    mscValues.push(Math.min(val, 35000));
+                }
+            });
+
+            if (mscValues.length < 6) {
+                // Using a simple non-blocking notification instead of alert()
+                const resultEl = document.getElementById('resMaternityBenefit');
+                resultEl.textContent = "Enter all 6 MSCs";
+                resultEl.classList.add('text-sm', 'text-red-500');
+                return;
+            }
+            
+            const resultEl = document.getElementById('resMaternityBenefit');
+            resultEl.classList.remove('text-sm', 'text-red-500');
+
+            const sumOfHighestMSC = mscValues.reduce((acc, curr) => acc + curr, 0);
+            // The formula is Sum of 6 highest MSCs divided by 180 days to get Average Daily Salary Credit
+            const averageDailySalaryCredit = sumOfHighestMSC / 180;
+            const totalBenefit = averageDailySalaryCredit * 105;
+
+            resultEl.textContent = `₱${totalBenefit.toFixed(2)}`;
+        });
+    }
+});
+</script>
+
+</body>
+</html>
+
