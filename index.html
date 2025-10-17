@@ -253,54 +253,64 @@
             </div>
         </section>
 
+
         <!-- Monetary Benefits Section -->
         <section id="benefits" class="mb-20">
             <h2 class="section-title">Key Monetary Benefits</h2>
             <p class="text-gray-700 mb-8 max-w-4xl">
-                Beyond the basic wage, the Labor Code of the Philippines mandates several other monetary benefits. These are legally required and distinct from company-initiated bonuses or allowances. Let's explore these in detail.
+                Beyond the basic wage, the Labor Code mandates several other monetary benefits. These are legally required and distinct from company-initiated bonuses or allowances. Let's explore these in detail based on the DOLE handbook.
             </p>
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Overtime & Night Shift -->
+                <!-- Regular Day Computations -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
-                    <h4 class="text-xl font-bold text-primary-blue mb-2">Overtime and Night Shift Pay <sup class="text-primary-red">(p. 10, 13)</sup></h4>
-                    <p class="text-gray-600 flex-grow">Overtime is for work beyond 8 hours. Night Shift Differential is a 10% premium for hours worked between 10 PM and 6 AM. These can be combined with other premiums.</p>
-                    <div class="mt-4 pt-4 border-t border-gray-200 space-y-2">
-                        <p class="text-sm font-semibold text-gray-800">Formula (Regular OT): <code class="text-xs bg-gray-100 p-1 rounded">(Hourly Rate × 125%) × OT Hours</code></p>
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Regular Work Day Pay</h4>
+                    <p class="text-gray-600 flex-grow">This covers the standard 8-hour workday, plus any additional work rendered (Overtime) or work done during late hours (Night Shift).</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200 space-y-3">
+                        <p class="text-sm font-semibold text-gray-800">Overtime Pay <code class="text-xs bg-gray-100 p-1 rounded">125% of hourly rate</code></p>
                         <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> For 2 OT hours: (₱86.88 × 1.25) × 2 = <b>₱217.20</b></p>
-                        <p class="text-sm font-semibold text-gray-800 mt-2">Formula (Night Diff): <code class="text-xs bg-gray-100 p-1 rounded">(Hourly Rate × 10%) × Night Hours</code></p>
-                         <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> For 8 night hours: (₱71.25 × 0.10) × 8 = <b>₱57.00</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Night Shift Pay <code class="text-xs bg-gray-100 p-1 rounded">110% of hourly rate</code></p>
+                        <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> For 8 night hours: (₱71.25 × 1.10) × 8 = <b>₱627.00</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Night Shift + OT <code class="text-xs bg-gray-100 p-1 rounded">137.5% of hourly rate</code></p>
+                        <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> For 2 night OT hours: (₱86.88 × 1.375) × 2 = <b>₱238.92</b></p>
                     </div>
                 </div>
-                <!-- Premium Pay for Rest & Special Days -->
+                <!-- Rest Day / Special Day Computations -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
-                    <h4 class="text-xl font-bold text-primary-blue mb-2">Premium Pay for Rest Day & Special Day <sup class="text-primary-red">(p. 11)</sup></h4>
-                    <p class="text-gray-600 flex-grow">Premium pay is extra compensation for working on non-working days. This includes scheduled rest days and Special (Non-Working) Days.</p>
-                    <div class="mt-4 pt-4 border-t border-gray-200 space-y-2">
-                         <p class="text-sm font-semibold text-gray-800">Formula (Work on Rest/Special Day): <code class="text-xs bg-gray-100 p-1 rounded">Daily Rate × 130%</code></p>
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Rest Day / Special Day Pay <sup class="text-primary-red">(p. 11)</sup></h4>
+                    <p class="text-gray-600 flex-grow">This applies to work performed on an employee's scheduled rest day or a Special (Non-Working) Day, which has a premium of 30%.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200 space-y-3">
+                        <p class="text-sm font-semibold text-gray-800">First 8 Hours <code class="text-xs bg-gray-100 p-1 rounded">130% of daily rate</code></p>
                         <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> Pay is ₱695 × 1.30 = <b>₱903.50</b></p>
-                        <p class="text-sm font-semibold text-gray-800 mt-2">Formula (OT on Rest/Special Day): <code class="text-xs bg-gray-100 p-1 rounded">(Hourly Rate × 130% × 130%) × OT Hours</code></p>
-                        <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> For 2 OT hours: (₱86.88 × 1.3 × 1.3) × 2 = <b>₱293.45</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Overtime Pay <code class="text-xs bg-gray-100 p-1 rounded">169% of hourly rate</code></p>
+                        <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> For 2 OT hours: (₱86.88 × 1.69) × 2 = <b>₱293.65</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Special Day on a Rest Day <code class="text-xs bg-gray-100 p-1 rounded">150% of daily rate</code></p>
+                        <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> Pay is ₱570 × 1.50 = <b>₱855.00</b></p>
                     </div>
                 </div>
-                <!-- Holiday Pay -->
-                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
-                    <h4 class="text-xl font-bold text-primary-blue mb-2">Holiday Pay (Regular Holiday) <sup class="text-primary-red">(p. 15)</sup></h4>
-                    <p class="text-gray-600 flex-grow">This benefit applies to work on Regular Holidays. Employees get 200% of their wage for the first 8 hours. If the holiday falls on their rest day, the premium is even higher.</p>
-                     <div class="mt-4 pt-4 border-t border-gray-200 space-y-2">
-                        <p class="text-sm font-semibold text-gray-800">Formula (Work on Holiday): <code class="text-xs bg-gray-100 p-1 rounded">Daily Rate × 200%</code></p>
+                <!-- Regular Holiday Computations -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Regular Holiday Pay <sup class="text-primary-red">(p. 15)</sup></h4>
+                    <p class="text-gray-600 flex-grow">Work on a Regular Holiday commands the highest premiums. Employees who do not work are still paid 100% of their wage.</p>
+                     <div class="mt-4 pt-4 border-t border-gray-200 space-y-3">
+                        <p class="text-sm font-semibold text-gray-800">First 8 Hours <code class="text-xs bg-gray-100 p-1 rounded">200% of daily rate</code></p>
                         <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> Pay is ₱570 × 2 = <b>₱1,140.00</b></p>
-                        <p class="text-sm font-semibold text-gray-800 mt-2">Formula (Work on Rest Day Holiday): <code class="text-xs bg-gray-100 p-1 rounded">Daily Rate × 260%</code></p>
-                        <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> Pay is ₱570 × 2.6 = <b>₱1,482.00</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Overtime Pay <code class="text-xs bg-gray-100 p-1 rounded">260% of hourly rate</code></p>
+                        <p class="text-xs text-gray-500"><b>Ex (Pampanga @ ₱570/day):</b> For 2 OT hours: (₱71.25 × 2.60) × 2 = <b>₱370.50</b></p>
+                        <p class="text-sm font-semibold text-gray-800">Regular Holiday on a Rest Day <code class="text-xs bg-gray-100 p-1 rounded">260% of daily rate</code></p>
+                         <p class="text-xs text-gray-500"><b>Ex (NCR @ ₱695/day):</b> Pay is ₱695 × 2.6 = <b>₱1,807.00</b></p>
                     </div>
                 </div>
                  <!-- 13th Month, Separation, Retirement -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col">
-                    <h4 class="text-xl font-bold text-primary-blue mb-2">13th Month, Separation & Retirement Pay</h4>
+                    <h4 class="text-xl font-bold text-primary-blue mb-2">Annual & End-of-Service Pay</h4>
                     <p class="text-gray-600 flex-grow">These benefits provide financial security at the end of the year, at the end of employment for authorized causes, and upon reaching retirement age.</p>
-                     <div class="mt-4 pt-4 border-t border-gray-200 space-y-2">
-                         <p class="text-sm font-semibold text-gray-800">13th Month Pay <sup class="text-primary-red">(p. 25)</sup>: <code class="text-xs bg-gray-100 p-1 rounded">(Total Annual Basic Salary) / 12</code></p>
-                        <p class="text-sm font-semibold text-gray-800">Separation Pay <sup class="text-primary-red">(p. 30)</sup>: <code class="text-xs bg-gray-100 p-1 rounded">(Monthly Salary) × Years of Service</code></p>
-                        <p class="text-sm font-semibold text-gray-800">Retirement Pay <sup class="text-primary-red">(p. 35)</sup>: <code class="text-xs bg-gray-100 p-1 rounded">(Daily Rate × 22.5) × Years of Service</code></p>
+                     <div class="mt-4 pt-4 border-t border-gray-200 space-y-3">
+                         <p class="text-sm font-semibold text-gray-800">13th Month Pay <sup class="text-primary-red">(p. 25)</sup></p>
+                         <p class="text-gray-600 text-xs flex-grow">Mandatory for all rank-and-file employees, paid on or before Dec 24. Pro-rated if employed for less than a year.</p>
+                         <p class="text-sm font-semibold text-gray-800 mt-2">Separation Pay <sup class="text-primary-red">(p. 30)</sup></p>
+                         <p class="text-gray-600 text-xs flex-grow">Paid for authorized causes of termination, like redundancy or business closure.</p>
+                         <p class="text-sm font-semibold text-gray-800 mt-2">Retirement Pay <sup class="text-primary-red">(p. 35)</sup></p>
+                          <p class="text-gray-600 text-xs flex-grow">For employees aged 60-65 with at least 5 years of service, equivalent to ~22.5 days per year of service.</p>
                     </div>
                 </div>
             </div>
